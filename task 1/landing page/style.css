@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: local("Poppins-Regular"),
+        url(./assets/Poppins-Regular.ttf) format("truetype");
+}
+
+.Image {
+    background-image: url("./assets/building.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
