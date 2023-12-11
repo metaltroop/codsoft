@@ -1,9 +1,19 @@
+html{
+    scroll-behavior: :smooth;
+}
+
+body {
+
+  scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: "Poppins";
     font-weight: 400;
     src: local("Poppins-Regular"),
         url(./assets/Poppins-Regular.ttf) format("truetype");
 }
+
 
 .Image {
     background-image: url("./assets/building.jpg");
