@@ -10,8 +10,3 @@ html{
 }
 
 
-.Image {
-    background-image: url("./assets/building.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
