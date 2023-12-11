@@ -1,11 +1,7 @@
 html{
-    scroll-behavior: :smooth;
+    scroll-behavior: smooth;
 }
 
-body {
-
-  scroll-behavior: smooth;
-}
 
 @font-face {
     font-family: "Poppins";
