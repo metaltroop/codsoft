@@ -1,128 +1,130 @@
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: "#da373d",
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
           },
         },
-      },
-    };
-  </script>
+      };
+    </script>
 
     <title>Document</title>
   </head>
   <nav
-      class="bg-[#ffffffd8] border-b-4 border-opacity-25 border-b-black fixed w-[100%] z-20 shadow-2xl"
+    class="bg-[#ffffffd8] border-b-4 border-opacity-25 border-b-black fixed w-[100%] z-20 shadow-2xl"
+  >
+    <div
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
-      <div
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
-      >
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img
-            src="./assets/logo.png"
-            class="h-8 rounded-md"
-            alt="Flowbite Logo"
-          />
-          <span
-            class="self-center text-2xl font-semibold whitespace-nowrap text-black"
-            >MetalTroop</span
-          >
-        </a>
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  "
-          aria-controls="navbar-default"
-          aria-expanded="false"
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img
+          src="./assets/logo.png"
+          class="h-8 rounded-md"
+          alt="Flowbite Logo"
+        />
+        <span
+          class="self-center text-2xl font-semibold whitespace-nowrap text-black"
+          >MetalTroop</span
         >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul
-            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
-          >
-            <li>
-              <a
-                href="#home"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                aria-current="page"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a
-                href="#services"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Services</a
-              >
-            </li>
-            <li>
-              <a
-                href="#pricing"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Pricing</a
-              >
-            </li>
-            <li>
-              <a
-                href="#about"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >About</a
-              >
-            </li>
-            <li>
-              <a
-                href="#contact"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
+      </a>
+      <button
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+        aria-controls="navbar-default"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 17 14"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15"
+          />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
+        >
+          <li>
+            <a
+              href="#home"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#pricing"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >Contact</a
+            >
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
   <body class="bg-[#ffffff]">
-    
     <div class="">
       <div
         id="home"
-        class="z-10 flex  items-center h-[70vh]   px-20 lg:h-[70vh] justify-between lg:px-40 bg-[#D9E8FE]"
+        class="z-10 flex items-center h-[70vh] px-20 lg:h-[70vh] justify-between lg:px-40 bg-[#D9E8FE]"
       >
         <div class="lg:w-[400px] lg:translate-y-24 flex flex-col gap-5">
           <h1
-            class="text-[#292E3D] lg:font-[600] text-4xl font-semibold  lg:text-[40px] font-[Poppins] text-left pt- lg:pt-28"
+            class="text-[#292E3D] lg:font-[600] text-4xl font-semibold lg:text-[40px] font-[Poppins] text-left pt- lg:pt-28"
           >
             We Are CODERS !
           </h1>
           <p class="text-justify">
-                  &nbsp &nbsp we believe in the synergy of marketing prowess, creative thinking, and
-            the power of coding. Our platform is a vibrant hub where developers
-            embark on a journey to merge technical expertise with creative
-            ingenuity, creating digital experiences that leave a lasting impact.
+            &nbsp &nbsp we believe in the synergy of marketing prowess, creative
+            thinking, and the power of coding. Our platform is a vibrant hub
+            where developers embark on a journey to merge technical expertise
+            with creative ingenuity, creating digital experiences that leave a
+            lasting impact.
           </p>
           <div class="relative mb-6">
             <div
@@ -173,18 +175,17 @@
           <img src="./assets/home1.png" class="translate-y-36 w-[500px]" />
         </div>
       </div>
-      
-        <div class="translate-y-[-1px] z-0">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" >
-            <path
-              fill="#D9E8FE"
-              fill-opacity="1"
-              d="M0,192L34.3,197.3C68.6,203,137,213,206,234.7C274.3,256,343,288,411,266.7C480,245,549,171,617,138.7C685.7,107,754,117,823,144C891.4,171,960,213,1029,229.3C1097.1,245,1166,235,1234,208C1302.9,181,1371,139,1406,117.3L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-            ></path>
-          </svg>
-        </div>
+
+      <div class="translate-y-[-1px] z-0">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#D9E8FE"
+            fill-opacity="1"
+            d="M0,192L34.3,197.3C68.6,203,137,213,206,234.7C274.3,256,343,288,411,266.7C480,245,549,171,617,138.7C685.7,107,754,117,823,144C891.4,171,960,213,1029,229.3C1097.1,245,1166,235,1234,208C1302.9,181,1371,139,1406,117.3L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
     </div>
-    
 
     <!-- services -->
     <div id="services" class="flex justify-center h-auto items-center flex-col">
@@ -193,85 +194,115 @@
           Services
         </h1>
         <p class="font-[Poppins] pl-10 text-center">
-          Expert services tailored for your success, delivering quality results consistently.
+          Expert services tailored for your success, delivering quality results
+          consistently.
         </p>
       </div>
-      <div class="grid grid-col grid-cols-1 md:grid-cols-2 md:px-5 lg:grid-cols-3 gap-20">
+      <div
+        class="grid grid-col grid-cols-1 md:grid-cols-2 md:px-5 lg:grid-cols-3 gap-20"
+      >
         <div
           class="flex flex-col justify-center items-center w-[350px] h-[350px] border-4 gap-2 p-5"
         >
-          <div class="w-20 h-20 bg-slate-400 rounded-full">
-            <i class="mdi mdi-chart-areaspline"></i>
+          <div class="w-20 h-20 bg-slate-100 rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="p-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
+              />
+            </svg>
           </div>
-          <h1>Hello World</h1>
+          <h1>Website Development</h1>
           <p class="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            magni commodi iure unde necessitatibus perferendis!
+            A web design studio that offers corporate web design.
           </p>
         </div>
 
         <div
           class="flex flex-col justify-center items-center w-[350px] h-[350px] border-4 gap-2 p-5"
         >
-          <div class="w-20 h-20 bg-slate-400 rounded-full">
-            <i class="mdi mdi-chart-areaspline"></i>
+          <div class="w-20 h-20 bg-slate-100 rounded-2xl ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="p-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+            </svg>
+            
           </div>
-          <h1>Hello World</h1>
+          <h1>App Development</h1>
           <p class="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            magni commodi iure unde necessitatibus perferendis!
+            As We Know, Android is the Latest technology. Most Companies Prefer
+            Android development.
           </p>
         </div>
 
         <div
           class="flex flex-col justify-center items-center w-[350px] h-[350px] border-4 gap-2 p-5"
         >
-          <div class="w-20 h-20 bg-slate-400 rounded-full">
-            <i class="mdi mdi-chart-areaspline"></i>
+          <div class="w-20 h-20 bg-slate-100 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="p-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+            </svg>
+            
           </div>
-          <h1>Hello World</h1>
+          <h1>Software Development</h1>
           <p class="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            magni commodi iure unde necessitatibus perferendis!
+            If you are searching for expert software developers for developing
+            any kind of.
           </p>
         </div>
 
         <div
           class="flex flex-col justify-center items-center w-[350px] h-[350px] border-4 gap-2 p-5"
         >
-          <div class="w-20 h-20 bg-slate-400 rounded-full">
-            <i class="mdi mdi-chart-areaspline"></i>
+          <div class="w-20 h-20 bg-slate-100 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="p-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+            </svg>
+            
           </div>
-          <h1>Hello World</h1>
+          <h1>Digital Marketing</h1>
           <p class="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            magni commodi iure unde necessitatibus perferendis!
+            Digital marketing is the use of the Internet, mobile devices, social
+            media, search engines, and other channels to reach consumers.
           </p>
         </div>
 
         <div
           class="flex flex-col justify-center items-center w-[350px] h-[350px] border-4 gap-2 p-5"
         >
-          <div class="w-20 h-20 bg-slate-400 rounded-full">
-            <i class="mdi mdi-chart-areaspline"></i>
+          <div class="w-20 h-20 bg-slate-100 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="p-5">
+              <path stroke-linecap="round" d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25" />
+            </svg>
+            
           </div>
-          <h1>Hello World</h1>
+          <h1>Social Media</h1>
           <p class="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            magni commodi iure unde necessitatibus perferendis!
+            Whether it's creating your digital product or just designing it,
+            whether it's engaging with your audiences or just.
           </p>
         </div>
 
         <div
           class="flex flex-col justify-center items-center w-[350px] h-[350px] border-4 gap-2 p-5"
         >
-          <div class="w-20 h-20 bg-slate-400 rounded-full">
-            <i class="mdi mdi-chart-areaspline"></i>
+          <div class="w-20 h-20 bg-slate-100 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="p-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+            
           </div>
-          <h1>Hello World</h1>
+          <h1>SEO</h1>
           <p class="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            magni commodi iure unde necessitatibus perferendis!
+            Search engine optimization (SEO) is the process of improving the
+            ranking of your website in the leading search.
           </p>
         </div>
       </div>
@@ -280,7 +311,7 @@
     <!-- pricing -->
     <div
       id="pricing"
-      class="flex flex-col items-center justify-center md:pt-20    bg-[#7ddcffe0] py-14 mt-16"
+      class="flex flex-col items-center justify-center md:pt-20 bg-[#7ddcffe0] py-14 mt-16"
     >
       <div class="flex flex-col items-center justify-center gap-4">
         <h1 class="text-6xl font-semibold text-[#292E3D] font-[Poppins]">
@@ -293,7 +324,6 @@
       </div>
 
       <div
-        
         class="grid grid-cols-1 gap-4 mt-4 leading-7 text-gray-900 border-0 border-gray-200 sm:mt-6 sm:gap-6 md:mt-8 md:gap-0 lg:grid-cols-3"
       >
         <!-- Price 1 -->
@@ -625,7 +655,7 @@
       </div>
     </div>
 
-<!-- 
+    <!-- 
 about -->
 
     <div
@@ -662,7 +692,9 @@ about -->
           <p class="font-[Poppins] text-center">Lorem ipsum dolor sit.</p>
         </div>
       </div>
-      <div class="grid gap-20 lg:gap-32 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div
+        class="grid gap-20 lg:gap-32 grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
+      >
         <div class="flex flex-col gap-5">
           <div
             class="w-40 h-40 bg-[#F7F7F7] rounded-full border-8 border-white outline-blue-300 overflow-hidden"
@@ -729,11 +761,10 @@ about -->
       </div>
     </div>
 
-
-<!-- contact      -->
+    <!-- contact      -->
     <div
       id="contact"
-      class="flex flex-col gap-20 h-130vh items-center pt-8 lg:h-[120vh] bg-[#ffffff] pb-40"
+      class="flex flex-col gap-20 h-130vh items-center pt-8 lg:h-[120vh] bg-[#ffffff] pb-20"
     >
       <div
         class="flex flex-col w-auto items-center justify-center text-center gap-6 pt-8"
@@ -741,7 +772,9 @@ about -->
         <h1 class="font-semibold text-6xl text-[#292E3D] font-[Poppins]">
           Contact Us
         </h1>
-        <p class="font-[Poppins] text-center w-80 md:w-auto lg:w-auto text-sm text-gray-500">
+        <p
+          class="font-[Poppins] text-center w-80 md:w-auto lg:w-auto text-sm text-gray-500"
+        >
           It is a long established fact that a reader will be of a page when
           established fact looking at its layout.
         </p>
@@ -951,8 +984,7 @@ about -->
       </div>
     </div>
 
-
-<!-- footer     -->
+    <!-- footer     -->
     <footer
       class="flex flex-col w-[100%] items-center bg-neutral-900 text-center text-white"
     >
@@ -1086,26 +1118,33 @@ about -->
         <button></button>
       </div>
     </footer>
-    <button id="to-top-button" onclick="goToTop()" title="Go To Top"
-    class="hidden fixed z-90 bottom-8 right-8 border-0 w-12 h-12 rounded-full drop-shadow-md bg-gray-800 text-white text-3xl font-bold">&uarr;
-  </button>
+    <button
+      id="to-top-button"
+      onclick="goToTop()"
+      title="Go To Top"
+      class="hidden fixed z-90 bottom-8 right-8 border-0 w-12 h-12 rounded-full drop-shadow-md bg-gray-800 text-white text-3xl font-bold"
+    >
+      &uarr;
+    </button>
     <script>
       var toTopButton = document.getElementById("to-top-button");
-  
+
       // When the user scrolls down 200px from the top of the document, show the button
       window.onscroll = function () {
-          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-              toTopButton.classList.remove("hidden");
-          } else {
-              toTopButton.classList.add("hidden");
-          }
-      }
-  
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          toTopButton.classList.remove("hidden");
+        } else {
+          toTopButton.classList.add("hidden");
+        }
+      };
+
       // When the user clicks on the button, smoothy scroll to the top of the document
       function goToTop() {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({ top: 0, behavior: "smooth" });
       }
-  </script>
-
+    </script>
   </body>
 </html>
